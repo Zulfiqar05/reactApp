@@ -1,0 +1,152 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-container{
+  background-image: linear-gradient(to bottom right,#0083FE,#2B2D42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  
+}
+.main-container .img-tag{
+  width: 30%;
+}
+.main-container img{
+  width: 100%;
+  margin-left: 150px;
+  
+  
+
+
+}
+.text-container{
+}
+.text-container p,button{
+  margin-left: 180px;
+}
+.text-container button{
+  margin-top: 20px;
+}
+.main-container h2{
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+.main-container p{
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.button-1{
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #FF632C;
+
+ 
+}
+.button-2{
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #2B2D42;
+  color: #FFFFFF;
+
+}
+
+
+/* Responsive part */
+
+@media only screen and (max-width: 1065px){
+  .main-container{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+  }
+  .main-container .img-tag{
+      width: 80%;
+      margin-left: -200px;
+  }
+  .text-container{
+      margin-left: -200px;
+  }
+  .main-container .text-container h2{
+      margin-left: 200px;
+      font-size: 4rem;
+  
+
+  }
+  .main-container .text-container p{
+      font-size: 1.5rem;
+      align-items: justify;
+  }
+  .buttons{
+      display: flex;
+      flex-direction: column;
+  }
+  .buttons .button-1{
+      width: 20%;
+      color: #FFFFFF;
+      font-size: 1.3rem;
+  }
+  .buttons .button-2{
+      width: 20%;
+
+      font-size: 1.3rem;
+  }
+
+}
+
+@media only screen and (max-width:764px){
+  .main-container{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 30px;
+  }
+  .main-container .img-tag{
+      width: 65%;
+  }
+  .text-container{
+      margin-left: 30px;
+  }
+  .main-container .text-container h2{
+      font-size: 2.4rem;
+  }
+  .main-container .text-container p{
+      font-size: 1.3rem;
+      margin-top:  20px;
+  }
+  .para-section{
+      margin-top: 30px;
+  }
+  .buttons .button-2{
+      width: 30%;
+
+      font-size: 1.3rem;
+  }
+  .buttons .button-1{
+      width: 30%;
+
+      font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width:570px){
+  .main-container{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 30px;
+      /* height: 150vh; */
+  }
+  .main-container .img-tag{
+      width: 70%;
+      margin-left: -199px;
+  }
+  .text-container{
+      margin-left: -100px;
+  }
+}
